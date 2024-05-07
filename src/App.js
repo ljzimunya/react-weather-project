@@ -1,15 +1,13 @@
 import React from "react";
 import Weather from "./Weather";
-
 import "./App.css";
-import "./Weather.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div class="container">
-        <header className="App-header">Weather Project</header>
-        <Weather />
+        <Weather defaultCity="Harare" />
+
         <footer>
           This project was coded by Laura Zimunya and is
           <a
@@ -24,5 +22,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
