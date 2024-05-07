@@ -30,7 +30,6 @@ export default function Weather(props) {
   }
 
   function search() {
-    let city = "Harare";
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=ta3c8a704e0f7163ad585o4ce48cb179&units=metric`;
 
     axios.get(apiUrl).then(handleResponse);
