@@ -25,7 +25,7 @@
   list-style: none;
 }
 
-.Weather form {
+.Weather .form {
   margin-bottom: 20px;
 }
 
@@ -42,4 +42,8 @@
   font-weight: 400;
   position: relative;
   top: -32px;
+}
+
+.Weather .conditions {
+  margin-top: 80px;
 }
